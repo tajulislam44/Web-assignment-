@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polystellar — 3D Artist Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+
+    <nav class="nav">
+      <span class="nav-brand">Polystellar</span>
+      <label class="nav-link"><input type="radio" name="view" id="nav-work" checked>Work</label>
+      <label class="nav-link"><input type="radio" name="view" id="nav-about">About</label>
+      <a href="mailto:mtunir2001@gmail.com">Contact</a>
+      <div class="seg theme-seg">
+        <label class="seg-opt"><input type="radio" name="theme" id="theme-light" checked>Light</label>
+        <label class="seg-opt"><input type="radio" name="theme" id="theme-dark">Dark</label>
+      </div>
+    </nav>
+
+    <section id="view-work" class="view">
+      <div class="wrap">
+        <section class="hero">
+          <span class="kicker">Selected work — 2021–2026</span>
+          <div class="hero-row">
+            <h1><span class="line">Polystellar —</span><span class="line">worlds built from scratch.</span></h1>
+            <p>A generalist practice built in Blender and ZBrush — chosen here for range rather than repetition.</p>
+          </div>
+        </section>
+        <hr class="rule2">
+        <div class="stats">
+          <div><p class="stat-num">09</p><p class="stat-label">Projects shown</p></div>
+          <div><p class="stat-num">03yr</p><p class="stat-label">In production</p></div>
+        </div>
+        <hr class="rule2">
+        <div class="masonry">
+          <div class="m-item" data-index="01">
+            <figure class="m-figure" style="aspect-ratio:4/5">
+              <img class="m-img" src="images/01-ice-cream.png" alt="Ice Cream">
+              <img class="m-img m-img-gif" src="images/ice_gif.gif" alt="Ice Cream">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Ice Cream</h2>
+              <span class="m-cat">Stylized</span>
+            </div>
+          </div>
+          <div class="m-item" data-index="02">
+            <figure class="m-figure" style="aspect-ratio:16/10">
+              <img class="m-img" src="images/02-sushi.png" alt="Sushi">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Sushi</h2>
+              <span class="m-cat">Hand-Painted</span>
+            </div>
+          </div>
+          <div class="m-item" data-index="03">
+            <figure class="m-figure" style="aspect-ratio:1/1">
+              <img class="m-img" src="images/03-environment.png" alt="Environment">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Environment</h2>
+              <span class="m-cat">Toon-Shaded</span>
+            </div>
+          </div>
+          <div class="m-item" data-index="04">
+            <figure class="m-figure" style="aspect-ratio:3/4">
+              <img class="m-img" src="images/04-cat-box.png" alt="Cat Box">
+              <img class="m-img m-img-gif" src="images/cat-box_gif.gif" alt="Cat Box">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Cat Box</h2>
+              <span class="m-cat">Stylized</span>
+            </div>
+          </div>
+          <div class="m-item" data-index="05">
+            <figure class="m-figure" style="aspect-ratio:16/9">
+              <img class="m-img" src="images/05-robo.png" alt="Robo">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Robo</h2>
+              <span class="m-cat">Rigged for Motion</span>
+            </div>
+          </div>
+          <div class="m-item" data-index="06">
+            <figure class="m-figure" style="aspect-ratio:4/5">
+              <img class="m-img" src="images/06-character.png" alt="Character">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Character</h2>
+              <span class="m-cat">Character</span>
+            </div>
+          </div>
+          <div class="m-item" data-index="07">
+            <figure class="m-figure" style="aspect-ratio:4/3">
+              <img class="m-img" src="images/07-metro-station.png" alt="Metro Station">
+              <img class="m-img m-img-gif" src="images/metro-station_gif.gif" alt="Metro Station">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Metro Station</h2>
+              <span class="m-cat">Stylized</span>
+            </div>
+          </div>
+          <div class="m-item" data-index="08">
+            <figure class="m-figure" style="aspect-ratio:1/1">
+              <img class="m-img" src="images/08-mystical-land.png" alt="Mystical Land">
+              <img class="m-img m-img-gif" src="images/mystical-land_gif.gif" alt="Mystical Land">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Mystical Land</h2>
+              <span class="m-cat">Cel-Shaded</span>
+            </div>
+          </div>
+          <div class="m-item" data-index="09">
+            <figure class="m-figure" style="aspect-ratio:5/6">
+              <img class="m-img" src="images/09-walter-pink.png" alt="Walter Pink">
+            </figure>
+            <div class="m-cap">
+              <h2 class="m-title">Walter Pink</h2>
+              <span class="m-cat">Character</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-about" class="view" hidden>
+      <div class="wrap">
+        <section class="about-hero">
+          <figure class="grayscale" style="margin:0">
+            <img class="about-portrait" src="images/portrait.png" alt="Polystellar portrait">
+          </figure>
+          <div>
+            <span class="kicker">About</span>
+            <h1 class="about-name">Polystellar</h1>
+            <p class="about-role">3D Artist &amp; Generalist — 3 years in, self-taught</p>
+            <div class="about-bio">
+              <p>I make things that don't exist yet look like they always did — characters, spaces and objects built with the same care whether they're seen for two seconds in a game or two minutes in a film.</p>
+              <p>Three years moving between hard-surface product work, organic character sculpting and environment lighting — sharing the process on YouTube along the way. I like problems that require learning a new pipeline to solve them.</p>
+            </div>
+          </div>
+        </section>
+
+        <hr class="rule2">
+
+        <section class="feature-list">
+          <div class="feature">
+            <p class="f-num">01</p>
+            <h2 class="f-title">Tools</h2>
+            <div class="tools-row">
+              <span class="tag tag-outline">Blender</span>
+              <span class="tag tag-outline">Maya</span>
+              <span class="tag tag-outline">ZBrush</span>
+              <span class="tag tag-outline">Substance Painter</span>
+              <span class="tag tag-outline">Krita</span>
+              <span class="tag tag-outline">Unreal Engine</span>
+            </div>
+          </div>
+          <div class="feature">
+            <p class="f-num">02</p>
+            <h2 class="f-title">Process</h2>
+            <p class="f-copy">Reference and blockout first, then sculpt or model to final topology, texture in Substance, and light every piece as if it were the only shot in the reel.</p>
+          </div>
+          <div class="feature">
+            <p class="f-num">03</p>
+            <h2 class="f-title">Availability</h2>
+            <p class="f-copy">Taking on select freelance work for Q4 2026 — character, environment or product visualization.</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="close">
+        <div class="wrap">
+          <h3><span class="line">Let's build something</span><span class="line">that doesn't exist yet.</span></h3>
+          <div class="contact-row">
+            <a href="https://www.youtube.com/channel/UCmy4vKt8aHRiScEUmulgvcw" class="btn btn-ghost" target="_blank" rel="noopener">YouTube</a>
+            <a href="https://polystellar.gumroad.com/" class="btn btn-ghost" target="_blank" rel="noopener">Gumroad</a>
+            <a href="https://www.instagram.com/polystellar3d/" class="btn btn-ghost" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer><div class="wrap">© 2026 Polystellar. All work shown by permission of respective clients.</div></footer>
+  </div>
+</body>
+</html>
